@@ -1,3 +1,5 @@
+import { uploadPhoto, createUser } from './utils.js';
+
 async function asyncUploadUser() {
     try {
         const photoPromise = uploadPhoto();
